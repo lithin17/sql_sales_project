@@ -50,4 +50,3 @@ The analysis was performed using SQL with the following steps:
 This project helps in understanding customer behavior, identifying high-value customers, and analyzing revenue trends to support business decision-making.
 
 
-#customer analysis is getting done
