@@ -830,68 +830,7 @@ FROM final_data
 ORDER BY diff DESC;
 
 --END OF SALES ANALYSIS
--------------------------------------------------------------------------
 
---CUSTOMER ANALYSIS
-
---STORY TELLING OF CUSTOMER ANALYSIS
-
---Customer Analysis Objective
---Understand who drives revenue, how dependent the business is on key customers, and identify customers at risk of reducing their spending.
-
---query 1 : we know that revenue dropped by 15% from 2023 to 2024 we got info from product analysis and is it customers are the reason
-
-WITH total_data
-AS
-(SELECT year(o.order_date) as rev_year,
-        c.customer_id,
-        sum(o.sales) as total_rev
-FROM Orders$ as o
-INNER JOIN Customers$ as c
-ON o.customer_id=c.customer_id
-GROUP BY year(o.order_date),
-         c.customer_id),
-combined_data
-AS
-(SELECT rev_year,
-       customer_id,
-       total_rev as current_year_rev,
-       lag(total_rev) over(partition by customer_id order by rev_year asc) as prev_year_rev
-FROM total_data),
-final_data
-AS
-(SELECT *,
-       coalesce(current_year_rev-prev_year_rev,current_year_rev) as diff
-FROM combined_data
-WHERE rev_year != 2023),
-trend_analysis
-AS
-(SELECT *,
-       CASE
-       WHEN prev_year_rev IS NULL THEN 'new customer'
-       WHEN diff > 0 then 'increased'
-       WHEN diff = 0 then 'breakeven'
-       ELSE 'decreased'
-       END trend
-FROM final_data)
-SELECT trend,
-    SUM(diff) AS revenue_loss,
-    ROUND( SUM(diff) * 100.0 /SUM((SUM(diff))) OVER(),2) AS per_of_loss
-FROM trend_analysis
-WHERE diff < 0
-GROUP BY trend
-
-UNION 
-
-SELECT
-    trend,
-    SUM(diff) AS revenue_loss,
-    ROUND(
-        SUM(diff) * 100.0 /
-        SUM(SUM(diff)) OVER(),
-        2
-    ) AS per_of_loss
-FROM trend_analysis
 WHERE diff > 0
 GROUP BY trend;
 
