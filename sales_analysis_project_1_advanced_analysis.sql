@@ -831,7 +831,5 @@ ORDER BY diff DESC;
 
 --END OF SALES ANALYSIS
 
-WHERE diff > 0
-GROUP BY trend;
 
 
