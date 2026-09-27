@@ -1,0 +1,101 @@
+customer_id,city,segment
+C1001,Delhi,Consumer
+C1002,Chennai,Consumer
+C1003,Hyderabad,Consumer
+C1004,Delhi,Home Office
+C1005,Jaipur,Consumer
+C1006,Lucknow,Corporate
+C1007,Mumbai,Consumer
+C1008,Delhi,Consumer
+C1009,Hyderabad,Home Office
+C1010,Lucknow,Consumer
+C1011,Jaipur,Consumer
+C1012,Jaipur,Corporate
+C1013,Hyderabad,Corporate
+C1014,Lucknow,Corporate
+C1015,Mumbai,Consumer
+C1016,Kolkata,Corporate
+C1017,Chennai,Consumer
+C1018,Hyderabad,Corporate
+C1019,Delhi,Consumer
+C1020,Kolkata,Consumer
+C1021,Pune,Corporate
+C1022,Lucknow,Corporate
+C1023,Mumbai,Home Office
+C1024,Ahmedabad,Home Office
+C1025,Delhi,Corporate
+C1026,Delhi,Home Office
+C1027,Chennai,Home Office
+C1028,Lucknow,Corporate
+C1029,Lucknow,Consumer
+C1030,Delhi,Consumer
+C1031,Hyderabad,Corporate
+C1032,Delhi,Consumer
+C1033,Delhi,Corporate
+C1034,Chennai,Corporate
+C1035,Pune,Consumer
+C1036,Pune,Corporate
+C1037,Hyderabad,Home Office
+C1038,Chennai,Home Office
+C1039,Delhi,Home Office
+C1040,Bangalore,Home Office
+C1041,Hyderabad,Consumer
+C1042,Ahmedabad,Corporate
+C1043,Chennai,Home Office
+C1044,Jaipur,Consumer
+C1045,Pune,Consumer
+C1046,Hyderabad,Consumer
+C1047,Pune,Corporate
+C1048,Chennai,Consumer
+C1049,Hyderabad,Home Office
+C1050,Pune,Consumer
+C1051,Ahmedabad,Corporate
+C1052,Ahmedabad,Consumer
+C1053,Chennai,Consumer
+C1054,Hyderabad,Home Office
+C1055,Jaipur,Home Office
+C1056,Chennai,Home Office
+C1057,Lucknow,Corporate
+C1058,Lucknow,Corporate
+C1059,Pune,Consumer
+C1060,Bangalore,Home Office
+C1061,Ahmedabad,Consumer
+C1062,Mumbai,Consumer
+C1063,Bangalore,Home Office
+C1064,Bangalore,Home Office
+C1065,Kolkata,Home Office
+C1066,Delhi,Corporate
+C1067,Kolkata,Home Office
+C1068,Ahmedabad,Home Office
+C1069,Chennai,Home Office
+C1070,Mumbai,Home Office
+C1071,Delhi,Home Office
+C1072,Jaipur,Corporate
+C1073,Pune,Consumer
+C1074,Chennai,Corporate
+C1075,Bangalore,Corporate
+C1076,Mumbai,Home Office
+C1077,Chennai,Home Office
+C1078,Bangalore,Home Office
+C1079,Delhi,Home Office
+C1080,Chennai,Home Office
+C1081,Jaipur,Home Office
+C1082,Hyderabad,Consumer
+C1083,Pune,Consumer
+C1084,Jaipur,Home Office
+C1085,Mumbai,Home Office
+C1086,Pune,Corporate
+C1087,Mumbai,Consumer
+C1088,Pune,Corporate
+C1089,Hyderabad,Consumer
+C1090,Hyderabad,Home Office
+C1091,Delhi,Consumer
+C1092,Ahmedabad,Consumer
+C1093,Jaipur,Consumer
+C1094,Bangalore,Home Office
+C1095,Ahmedabad,Home Office
+C1096,Bangalore,Corporate
+C1097,Jaipur,Home Office
+C1098,Kolkata,Consumer
+C1099,Jaipur,Home Office
+C1100,Hyderabad,Home Office

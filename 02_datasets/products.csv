@@ -1,0 +1,31 @@
+product_id,category,product_name
+P1001,Electronics,Laptop
+P1002,Electronics,Smartphone
+P1003,Electronics,Tablet
+P1004,Electronics,Headphones
+P1005,Electronics,Smart Watch
+P1006,Electronics,Webcam
+P1007,Electronics,USB Hub
+P1008,Electronics,Keyboard
+P1009,Electronics,Monitor
+P1010,Electronics,Printer
+P1011,Furniture,Office Chair
+P1012,Furniture,Standing Desk
+P1013,Furniture,Bookshelf
+P1014,Furniture,Filing Cabinet
+P1015,Furniture,Sofa
+P1016,Furniture,Coffee Table
+P1017,Furniture,Wardrobe
+P1018,Furniture,Bed Frame
+P1019,Furniture,Nightstand
+P1020,Furniture,Dining Table
+P1021,Clothing,Men's T-Shirt
+P1022,Clothing,Women's Kurta
+P1023,Clothing,Jeans
+P1024,Clothing,Formal Shirt
+P1025,Clothing,Saree
+P1026,Clothing,Jacket
+P1027,Clothing,Sports Shoes
+P1028,Clothing,Sandals
+P1029,Clothing,Ethnic Wear
+P1030,Clothing,Kids Top
